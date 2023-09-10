@@ -1,4 +1,8 @@
-# Limiter PR Github App
+<p align="center">
+  <img width="600" height="300" src="img/limiter.png">
+</p>
+
+# Limiter PR Github App ✅
 
 Having small PRs is desirable for more modularized feature development and ensuring a better review. If you feel identified with this feature for your own projects, this is your App. 
 
@@ -10,13 +14,10 @@ This App is a pull-request check suite subject to the number of:
 
 This Github App is built with [Probot](https://github.com/probot/probot).
 
-<p align="center">
-  <img width="500" height="400" src="img/limiter.png">
-</p>
 
 ## Hosting the App
 
-Currently, this app is NOT hosted at the moment, however if you wish to do so, you should run the server:
+Currently, this app is NOT hosted at the moment, but your could run the server as
 
 ```sh
 cd limiter-app/
@@ -26,6 +27,8 @@ npm install
 # Run the bot
 npm start
 ```
+
+Make sure to update `limiter-app/.env`.
 
 ## Docker
 
